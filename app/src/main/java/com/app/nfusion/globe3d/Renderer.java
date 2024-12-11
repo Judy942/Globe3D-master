@@ -51,7 +51,7 @@ public class Renderer implements GLSurfaceView.Renderer {
 //        updateEarthRotation();
         // Set the view matrix
         Matrix.setLookAtM(earthViewMatrix, 0,
-                0, 0, -10,
+                0, 0, -5,
                 0, 0, 0,
                 0, 1, 0);
 
