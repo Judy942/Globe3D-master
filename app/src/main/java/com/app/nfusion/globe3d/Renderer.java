@@ -75,6 +75,7 @@ public class Renderer implements GLSurfaceView.Renderer {
         sphere.init();
 
         earthTexture = TextureHelper.loadTexture(context, R.drawable.earth_texture);
+//        earthTexture = TextureHelper.loadTexture(context, R.drawable.earth_clouds);
     }
 
     @Override
